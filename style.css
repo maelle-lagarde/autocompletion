@@ -1,0 +1,97 @@
+* {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    height: 100%;
+    background: rgb(247,216,98);
+    background: linear-gradient(90deg, rgba(247,216,98,1) 0%, rgba(238,98,181,1) 100%);
+}
+
+h1 {
+    letter-spacing: 2px;
+}
+
+h2 {
+    margin-top: -10px;
+}
+
+.box {
+    padding: 30px 50px 50px 50px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    border: none;
+    border-radius: 7px;
+    width: 40%;
+}
+
+form input {
+    width: 600px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0080fb;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+    border: none;
+    transition: 0.5s
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+a:first-child {
+    margin-top: 40px;
+}
+
+a:visited {
+    color: darkgray;
+}
+
+a:hover {
+    color: coral;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+li:hover {
+    color: #0080fb;
+    font-weight: 500;
+}
+
+.icon {
+    margin-right: 30px;
+}
