@@ -40,8 +40,9 @@ h2 {
 }
 
 form input {
-    width: 600px;
-    height: 30px;
+    display: flex;
+    width: 37.5rem;
+    height: 1.875rem;
     margin-bottom: 20px;
 }
 
